@@ -21,7 +21,7 @@ var person1 = {
 };
 console.log("sayName" in person1);  // true
 
-//check its own property
+
 console.log('check its own property');
 console.log("name" in person1);
 console.log(person1.hasOwnProperty("name"));
